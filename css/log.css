@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    height: 100vh;
+}
+
+main {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/15br-mandoltm-social-newsheader-1920x1080-c670ddb2fea1.png");
+    background-color: rgb(164, 221, 253);
+    color: cornsilk;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+
+h1 {
+    height: 15%;
+}
+
+form {
+
+    height: 30%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(111, 196, 239);
+    border-radius: 5%;
+    border: solid 1px bisque ;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
