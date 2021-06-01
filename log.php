@@ -17,21 +17,22 @@
 <body>
     <?php require './templates/header.php' ?>
     <main>
-    <h1>Connecter-vous !</h1>
-    <form action="./controllers/session.php" method="POST">
 
-        <div>
-            <label for="firstname">Prénom :</label>
-            <input type="text" name="pseudo"  value="" placeholder="Pénom" required>
-        </div>
-        <div>
-        <label for="password" >Mot de passe :</label>
-        <input type="password" name="password" placeholder="*******" required>
-        </div>
+        <h1>Connecter-vous !</h1>
+        <form action="./controllers/session.php" method="POST">
 
-    
-        <input type="submit" value="Envoyer !">
-    </form>
-    
+            <div>
+                <label for="firstname">Prénom :</label>
+                <input type="text" name="pseudo"  value="" placeholder="Pénom" required>
+            </div>
+            <div>
+            <label for="password" >Mot de passe :</label>
+            <input type="password" name="password" placeholder="*******" required>
+            </div>
+
+        
+            <input type="submit" value="Envoyer !">
+        </form>
+    </main>
 </body>
 </html>
