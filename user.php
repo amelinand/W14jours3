@@ -35,7 +35,7 @@ $users = [
 <body>
     <?php require './templates/header.php' ?>
     <main>
-        <h1>Les Utilisateurs</h1>
+        <h1>Nos Utilisateurs</h1>
         <table>
             <tr>
                 <th>Nom</th>
@@ -48,7 +48,7 @@ $users = [
                 <tr>
                     <td><?= $user['name'] ?></td>
                     <td><?= $user['color'] ?></td>
-                    <td><?= $user['age'] ?></td>
+                    <td><?= $user['age'] ?> ans</td>
                 </tr>
 
             <?php endforeach ?>

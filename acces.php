@@ -16,7 +16,7 @@
             <h1>Bienvenue sur notre Forum  <?= $_SESSION['pseudo']?> ! </h1>
         <?php else : ?>   
         <h1>Vous ne passerez pas!</h1>
-        <h1>Merci de vous Connecter'</h1>
+        <h1>Merci de vous Connecter</h1>
         <?php endif ?>
     </main>
 </body>
