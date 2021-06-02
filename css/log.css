@@ -18,7 +18,7 @@ main {
     overflow: hidden;
     font-family: 'Bangers', cursive;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     position: relative;
     overflow: hidden;
     background-image: url("../img/15br-mandoltm-social-newsheader-1920x1080-c670ddb2fea1.png");
@@ -33,7 +33,7 @@ main {
 h1 {
     position: relative;
     z-index: 2;
-    font-size: 8em;
+    font-size: 6em;
     letter-spacing: 15px;
     text-transform: uppercase;
     color: hsl(50, 50%, 50%);
