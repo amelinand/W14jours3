@@ -6,8 +6,8 @@ require ('users.php');
 
 
 
-foreach($users as $value){
-    if($_POST === $value){
+foreach($users as $user){
+    if($_POST['pseudo'] === $user['pseudo'] && md5($_POST['password']) === $user['password']){
         $_SESSION['pseudo'] = $_POST['pseudo'];
         header('Location: ../index.php');
     }

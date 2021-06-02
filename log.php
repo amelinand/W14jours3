@@ -20,18 +20,17 @@
 
         <h1>Connecter-vous !</h1>
         <form action="./controllers/session.php" method="POST">
-
             <div>
                 <label for="firstname">Prénom :</label>
-                <input type="text" name="pseudo"  value="" placeholder="Pénom" required>
+                <input type="text" name="pseudo"  value="" placeholder="Pénom" class="inset_input" required>
             </div>
             <div>
-            <label for="password" >Mot de passe :</label>
-            <input type="password" name="password" placeholder="*******" required>
+                <label for="password" >Mot de passe :</label>
+                <input type="password" name="password" placeholder="*******"class="inset_input" required>
             </div>
 
         
-            <input type="submit" value="Envoyer !">
+            <input type="submit" value="Envoyer !" class="blue_button" >
         </form>
     </main>
 </body>

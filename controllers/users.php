@@ -5,15 +5,15 @@ session_start();
 $users = [
     [
         'pseudo' => 'Anthony',
-        'password'=> 'salut'
+        'password'=> md5('salut')
     ],
     [
         'pseudo' => 'Thomas',
-        'password'=> 'salut'
+        'password'=> md5('salut')
     ],
     [
         'pseudo' => 'Len',
-        'password'=> 'salut'
+        'password'=> md5('salut')
     ]
 ];
 

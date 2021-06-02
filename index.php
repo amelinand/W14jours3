@@ -12,6 +12,7 @@
  <?php require './templates/header.php' ?>
     <!-- on pourrait l'utiliser comme rappel de nav bar pour le rappeler sur toutes les pages que si le fichier est en .php  -->
     <main>
+        <h2></h2>
         <?php  if(isset($_SESSION['pseudo'])) : ?>
             <h1>Bienvenue <?= $_SESSION['pseudo']?></h1>
         <?php else : ?>   

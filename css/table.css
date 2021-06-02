@@ -27,18 +27,19 @@ table {
     height: 40%;
     width: 80%;
     border: solid 1px bisque ;
- background-color: transparent;
+
 
 }
 
 td {
-    background-color: rgb(120, 176, 202);
-    text-align: center;
 
+    text-align: center;
+    border: solid 1px bisque ;
 }
 
 th {
     border: solid 1px bisque ;
-    background-color: transparent;
+    font-size: large;
+    
 
 }
