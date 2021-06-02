@@ -16,20 +16,28 @@
 <body>
     <?php require './templates/header.php' ?>
     <main>
-        <h1>Vous inscrire</h1>
+        <h1> Inscrirez vous!</h1>
         <form action="formSend.php" method="POST">
             <fieldset>
                 <div>
                     <label for="name">Nom:</label>
-                    <input type="text" name="name" class="inset_input" required>
+                    <input type="text" name="name" placeholder="Antho" class="inset_input" required>
                 </div>
                 <div>
                     <label for="color"> Couleur:</label>
-                    <input type="text" name="color" class="inset_input" required>
+                    <input type="text" name="color" placeholder="bleu" class="inset_input" required>
                 </div>
                 <div>
                     <label for="age"> Age:</label>
-                    <input type="number" min="0" name="age"  class="inset_input" required>
+                    <input type="number" min="0" name="age" placeholder="18" class="inset_input" required>
+                </div>
+                <div>
+                    <Label for="password"> Password :</Label>
+                    <input type="password" name="password" placeholder="*******" class="inset_input" required>
+                </div>
+                <div>
+                    <label for="email"> Email :</label>
+                    <input type="email" name="email" class="inset_input" placeholder="antho@mandalorian.com" require>
                 </div>
             </fieldset>
                 <div>

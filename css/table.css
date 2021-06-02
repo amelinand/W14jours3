@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@keyframes rotation {
+  to {
+    transform: rotate(360deg) translateX(-50%) translateY(-50%);
+  }
+}
 * {
     margin: 0;
     padding: 0;
@@ -12,34 +18,61 @@ body {
 
 }
 main {
-    height: 90%;
+    width: 100%;
+    height: 100vh;
+    color: hsl(50, 50%, 50%);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: 'Bangers', cursive;
     align-items: center;
-    background-image: url("../img/15br-mandoltm-social-newsheader-1920x1080-c670ddb2fea1.png");
-
-    color: cornsilk;
-    text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+   background-image: url("../img/15br-mandoltm-social-newsheader-1920x1080-c670ddb2fea1.png");
 }
 
 table {
     height: 40%;
     width: 80%;
-    border: solid 1px bisque ;
+    border: solid 1px hsl(50, 50%, 50%) ;
 
 
 }
 
 td {
-
+   color: beige;
     text-align: center;
-    border: solid 1px bisque ;
+    border: solid 1px hsl(50, 50%, 50%) ;
+    font-size: large;
+    font-size: 1.5em;
+    background-color: rgb(19, 189, 219);
 }
 
 th {
-    border: solid 1px bisque ;
-    font-size: large;
-    
+ 
+    color: beige;
+    border: solid 1px hsl(50, 50%, 50%);
+    font-size: 2em;
+    background-color: rgb(19, 189, 219);
 
+}
+h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 8em;
+    letter-spacing: 15px;
+
+    text-transform: uppercase;
+    text-shadow: 1px 1px hsl(50, 50%, 45%),
+                 2px 2px hsl(50, 50%, 40%),
+                 3px 3px hsl(50, 50%, 35%),
+                 4px 4px hsl(50, 50%, 34%),
+                 5px 5px hsl(50, 50%, 33%),
+                 6px 6px hsl(50, 50%, 32%),
+                 7px 7px hsl(50, 50%, 31%),
+                 8px 8px hsl(50, 50%, 30%),
+                 9px 9px hsl(50, 50%, 29%),
+                 10px 10px hsl(50, 50%, 28%),
+                 10px 10px 30px rgba(0,0,0,.7);
 }

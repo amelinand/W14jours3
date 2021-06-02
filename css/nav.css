@@ -21,7 +21,12 @@ nav{
 } */
 
 
-
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@keyframes rotation {
+  to {
+    transform: rotate(360deg) translateX(-50%) translateY(-50%);
+  }
+}
 
 * {
     margin: 0;   /******** remet toute les marge de base à zéro ************/
@@ -37,6 +42,14 @@ header {
     height: 10%;
     display: flex;
     background-color: rgb(17, 169, 230);
+    overflow: hidden;
+    font-family: 'Bangers', cursive;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    letter-spacing: 4px;
+
 }
 
 nav{

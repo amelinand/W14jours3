@@ -1,9 +1,26 @@
-
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@keyframes rotation {
+  to {
+    transform: rotate(360deg) translateX(-50%) translateY(-50%);
+  }
+}
 body {
     height: 100vh;
 }
 main {
     height: 100%;
+
+    width: 100%;
+    height: 100vh;
+    color: hsl(50, 50%, 50%);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: 'Bangers', cursive;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
     background-image: url("../img/15br-mandoltm-social-newsheader-1920x1080-c670ddb2fea1.png");
 
     color: cornsilk;

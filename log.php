@@ -24,6 +24,9 @@
                 <label for="firstname">Prénom :</label>
                 <input type="text" name="pseudo"  value="" placeholder="Pénom" class="inset_input" required>
             </div>
+            <?php if(isset($_GET['error'])) : ?>
+                <p style ='color:red'>Utilisateur ou mots de passe incorrect</p>
+                <?php endif ?>
             <div>
                 <label for="password" >Mot de passe :</label>
                 <input type="password" name="password" placeholder="*******"class="inset_input" required>

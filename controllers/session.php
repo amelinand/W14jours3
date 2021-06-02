@@ -13,7 +13,7 @@ foreach($users as $user){
     }
 }
 if( !isset($_SESSION['pseudo']) ){
-    header('Location: ../log.php');
+    header('Location: ../log.php?error=');
 }
 
 

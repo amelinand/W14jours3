@@ -35,6 +35,7 @@ $users = [
 <body>
     <?php require './templates/header.php' ?>
     <main>
+        <h1>Les Utilisateurs</h1>
         <table>
             <tr>
                 <th>Nom</th>

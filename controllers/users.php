@@ -14,6 +14,10 @@ $users = [
     [
         'pseudo' => 'Len',
         'password'=> md5('salut')
+    ],
+    [
+        'pseudo' => 'Justine',
+        'password'=> md5('salut')
     ]
 ];
 
