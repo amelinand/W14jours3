@@ -2,7 +2,7 @@
 
 
 <header>
-    <nav>
+    <nav class="position-sticky">
         <ul>
             <li><a href="index.php">Accueil</a></li>
             <li><a href="user.php">Utilisateur</a></li>

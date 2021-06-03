@@ -79,11 +79,13 @@ nav a {
     padding: 4px 7px;
     border: solid 1px hsl(50, 50%, 50%);
     font-size: 1.4em;
+    transition-duration: 1s;
 }
 nav a:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(27, 184, 223);
     text-shadow: rgb(122, 122, 122) 4px 3px 0px;
+    letter-spacing: 5px;
     
 }
 
@@ -118,7 +120,13 @@ nav li{
 
 a {
     position: absolute;
+    box-shadow: 2px 3px 5px white;
 }
+
+li a{
+    box-shadow: 2px 3px 5px white;
+}
+
 
 /*************************
 tag {} pour une div 

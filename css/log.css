@@ -21,12 +21,13 @@ main {
     justify-content: space-evenly;
     position: relative;
     overflow: hidden;
-    background-image: url("../img/6701-mandalorian-star-wars-WallFizz.jpg");
+    background-image: url("../img/mando9.jpg");
     background-color: rgb(164, 221, 253);
     color: cornsilk;
     text-shadow: -1px 0 black, 0 1px black,
       1px 0 black, 0 -1px black;
     letter-spacing: 3px;
+    background-position: right;
 }
 
 
@@ -53,7 +54,7 @@ h1 {
 
 form {
 
-    height: 30%;
+    height: 33%;
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -63,6 +64,7 @@ form {
     border-radius: 5%;
     border: solid 1px hsl(50, 50%, 50%);
     font-size: 1.5em;
+    box-shadow: 10px 5px 5px white;
 }
 
 fieldset {
@@ -121,7 +123,8 @@ fieldset {
     -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    cursor: pointer
+    cursor: pointer;
+    transition-duration: 1s;
 }
 .blue_button:hover {
     background-image: -moz-linear-gradient(top, #3fadf9, #3493f9);
@@ -129,7 +132,8 @@ fieldset {
     background-image: -webkit-linear-gradient(top, #3fadf9, #3493f9);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3fadf9), color-stop(1, #3493f9));
     filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr=#3fadf9, EndColorStr=#3493f9)";
-    background-image: linear-gradient(top, #3fadf9, #3493f9)
+    background-image: linear-gradient(top, #3fadf9, #3493f9);
+    letter-spacing: 5px;
 }
 
 form img{
@@ -139,5 +143,23 @@ form img{
 
 .password {
     display: flex;
-align-items: center;
+    align-items: center;
+}
+
+.lien {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+    color: white;
+    text-shadow: 1px 1px hsl(50, 50%, 45%),
+
+}
+
+div {
+    margin: 5px;
+}
+
+fieldset div {
+    display: flex;
+    justify-content: space-evenly;
 }

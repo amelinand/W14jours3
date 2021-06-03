@@ -16,7 +16,7 @@
 <body>
     <?php require './templates/header.php' ?>
     <main>
-        <h1> Inscrirez vous!</h1>
+        <h1> Inscrirez-vous!</h1>
         <form action="formSend.php" method="POST">
             <fieldset>
                 <div>
@@ -42,6 +42,9 @@
             </fieldset>
                 <div>
                     <input type="submit" value="envoyer" class="blue_button" >
+                </div>
+                <div class="lien">
+                <a class="lien" href="log.php">Connectez-vous!</a>
                 </div>
         </form>
     </main>
