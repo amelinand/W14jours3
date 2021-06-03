@@ -27,7 +27,7 @@
                     <?php endif ?>
                 <div>
                     <label for="firstname">Prénom :</label>
-                    <input type="text" name="pseudo"  value="" placeholder="Pénom" class="inset_input" required>
+                    <input type="text" name="pseudo"  value="" placeholder="Yoda" class="inset_input" required>
                 </div>
                 <div class="password">
                     <label for="password" >Mot de passe :</label>

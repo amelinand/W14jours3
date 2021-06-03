@@ -5,7 +5,7 @@
     <nav class="position-sticky">
         <ul>
             <li><a href="index.php">Accueil</a></li>
-            <li><a href="user.php">Utilisateur</a></li>
+            <li><a href="user.php">Personnages</a></li>
             <li><a href="acces.php">Forum</a></li>
             <?php  if(isset($_SESSION['pseudo'])) : ?>
                 <ul class="display">

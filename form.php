@@ -21,7 +21,7 @@
             <fieldset>
                 <div>
                     <label for="name">Nom:</label>
-                    <input type="text" name="name" placeholder="Antho" class="inset_input" required>
+                    <input type="text" name="name" placeholder="Cara Dune" class="inset_input" required>
                 </div>
                 <div>
                     <label for="color"> Couleur:</label>
@@ -37,7 +37,7 @@
                 </div>
                 <div>
                     <label for="email"> Email :</label>
-                    <input type="email" name="email" class="inset_input" placeholder="antho@mandalorian.com" require>
+                    <input type="email" name="email" class="inset_input" placeholder="cara-dune@mandalorian.com" require>
                 </div>
             </fieldset>
                 <div>
