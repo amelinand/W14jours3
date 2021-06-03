@@ -21,7 +21,7 @@ main {
     justify-content: space-evenly;
     position: relative;
     overflow: hidden;
-    background-image: url("../img/15br-mandoltm-social-newsheader-1920x1080-c670ddb2fea1.png");
+    background-image: url("../img/6701-mandalorian-star-wars-WallFizz.jpg");
     background-color: rgb(164, 221, 253);
     color: cornsilk;
     text-shadow: -1px 0 black, 0 1px black,
@@ -54,7 +54,7 @@ h1 {
 form {
 
     height: 30%;
-    width: 25%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,6 +69,7 @@ fieldset {
     border: none;
     display: flex;
     flex-direction: column;
+    text-align-last: inherit;
 }
 
 .inset_input {
@@ -129,4 +130,14 @@ fieldset {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3fadf9), color-stop(1, #3493f9));
     filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr=#3fadf9, EndColorStr=#3493f9)";
     background-image: linear-gradient(top, #3fadf9, #3493f9)
+}
+
+form img{
+    height: 30px;
+    cursor: pointer;
+}
+
+.password {
+    display: flex;
+align-items: center;
 }

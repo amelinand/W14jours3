@@ -9,7 +9,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/nav.css">
-    <link rel="stylesheet" href="./css/log.css">
+    <link rel="stylesheet" href="./css/form.css">
     <title>Inscription</title>
 </head>
 
