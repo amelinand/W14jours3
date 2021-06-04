@@ -10,6 +10,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/form.css">
+    <script src="js/log.js" defer></script>
     <title>Inscription</title>
 </head>
 
@@ -31,13 +32,15 @@
                     <label for="age"> Age:</label>
                     <input type="number" min="0" name="age" placeholder="18" class="inset_input" required>
                 </div>
-                <div>
-                    <Label for="password"> Password :</Label>
-                    <input type="password" name="password" placeholder="*******" class="inset_input" required>
+                <div class="password">
+                    <label for="password" >Mot de passe :</label>
+                    <input id="password" type="password" name="password" placeholder="*******"class="inset_input" required>
+                    <img src="../img/yeux.svg" alt="" id='checkbox'>
                 </div>
                 <div>
                     <label for="email"> Email :</label>
-                    <input type="email" name="email" class="inset_input" placeholder="cara-dune@mandalorian.com" require>
+                    <input type="email" name="email" class="inset_input" placeholder="cara-dune@mandalorian.com" require >
+                    
                 </div>
             </fieldset>
                 <div>

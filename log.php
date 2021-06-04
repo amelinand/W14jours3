@@ -32,7 +32,7 @@
                 <div class="password">
                     <label for="password" >Mot de passe :</label>
                     <input id="password" type="password" name="password" placeholder="*******"class="inset_input" required>
-                    <img src="../img/weiw.png" alt="" id='checkbox'>
+                    <img src="../img/yeux.svg" alt="" id='checkbox'>
                 </div>
             </fieldset>
             <input type="submit" value="Envoyer" class="blue_button" >

@@ -1,0 +1,37 @@
+/*******************************************************************
+box-shadow: 10px 5px 5px white; //fait une ombre autour d'un élément.
+
+cursor: pointer;//change icone de la souri quand on passe sur un élément que l'on peut cliqué.
+
+transition-duration: 1s; //sur un bouton puis =>     letter-spacing: 5px; sur le :hover d'un élement 
+crée une animation ou les lettres s'écarte quand on passe dessus avec le pointeur.
+
+margin: 5px; // pour créé un espace entre des div.
+
+font-size: 0.8em; // pour donner un taille à un texte ou un élement.
+
+letter-spacing: 5px; // espace entre les lettres.
+
+border-radius: 30px; // arrondis sur une image ou une div.
+
+border: solid 1px hsl(50, 50%, 50%); // pour encadré un élément
+
+z-index: 2; // positione les élément fils en en decalere diagonale pratique pour un effet sur des lettres.
+
+text-transform: capitalize; // pour mettre le texte en majuscule * uppercase; pour le mettre tout en majuscule.
+
+font-family: // police de texte.
+
+list-style: none; // enlève le point devant la liste
+
+background-position: center; // pour centré l'image sur un background img.
+
+div:hover {
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);  // passe en surbrillance l'élément a savoir qu'il faut au préalable mettre le parent au filter: brightness(65%);
+}
+
+display: none; // fait disparaitre un élémént.
+display: block; // pour le faire réaparaitre.
+
+

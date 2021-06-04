@@ -95,10 +95,10 @@ fieldset {
 }
 .inset_input:focus {
     border: 1px solid #999 !important;
-    /*box-shadow*/
     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
+
 }
 
 .blue_button {
@@ -133,7 +133,7 @@ fieldset {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3fadf9), color-stop(1, #3493f9));
     filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr=#3fadf9, EndColorStr=#3493f9)";
     background-image: linear-gradient(top, #3fadf9, #3493f9);
-    letter-spacing: 5px;
+    letter-spacing: 6px;
 }
 
 form img{
@@ -162,4 +162,9 @@ div {
 fieldset div {
     display: flex;
     justify-content: space-evenly;
+}
+
+input:focus{
+    outline-color: blue 3px ;
+    outline-style: groove;
 }
